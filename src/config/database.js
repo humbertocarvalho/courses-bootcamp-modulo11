@@ -1,7 +1,7 @@
-require('../bootstrap');
+require('../bootstrap.js');
 
 module.exports = {
-  dialect: process.env.DT_DIALECT || 'postgres',
+  dialect: process.env.DB_DIALECT || 'postgres',
   host: process.env.DB_HOST,
   username: process.env.DB_USER,
   password: process.env.DB_PASS,
